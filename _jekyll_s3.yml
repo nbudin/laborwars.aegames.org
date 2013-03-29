@@ -2,3 +2,17 @@ s3_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 s3_bucket: laborwars.aegames.org
 s3_reduced_redundancy: true
+
+gzip:
+  - .html
+  - .css
+  - .svg
+  - .js
+  - .ttf
+  - .eot
+
+max_age:
+  "fonts/*": 1209600
+  "images/*": 1209600
+  "iepngfix_tilebg.js": 1209600
+  "*": 6000
