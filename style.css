@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'PhoenixScriptFLFRegular';
+	src: url('/fonts/PhoenixScriptFLF.eot');
+	src: local('PhoenixScriptFLF'), local('PhoenixScriptFLF'), url('/fonts/PhoenixScriptFLF.woff') format('woff'), url('/fonts/PhoenixScriptFLF.ttf') format('truetype'), url('/fonts/PhoenixScriptFLF.svg#PhoenixScriptFLF') format('svg');
+}
+
+/* ie png fix */
+img, div, body { behavior: url(/iepngfix.htc) }
+
+body {
+  background: #002868;
+  background-image: url(/images/star.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: Georgia, Palatino, Times, 'Times New Roman', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #bf0a30;
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  background: #ddd;
+  background: rgba(255, 255, 255, 0.83);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0.7));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.7)));
+  border: 3px white solid;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: PhoenixScriptFLFRegular !important;
+  font-weight: normal;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#main h2 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#main p {
+  margin: 20px 0;
+  
+  font-size: 15px;
+  
+  line-height: 20px;
+}
+
+#main ul {
+  margin: 20px;
+}
+
+#main li {
+  list-style-type: square;
+
+  font-size: 15px;
+  
+  line-height: 20px;
+}
+
+#nav {
+  left: 50%;
+  margin-left: -300px;
+  width: 616px;
+  top: 5px;
+  height: 220px;
+  position: relative;
+
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#nav #logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#nav ul {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    list-style-type: none;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+
+#nav li {
+  font-size: 30px;
+  line-height: 35px;
+
+  margin: 0;
+  vertical-align: top;
+
+  font-family: PhoenixScriptFLFRegular !important;
+  display: inline;
+}
+
+
+#nav ul li a {
+    display: block;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+#nav ul li a:hover {
+    background: #0045b3;
+    background: rgba(0, 0, 0, 0.2);
+    background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0));
+    background: -webkit-gradient(linear, right top, left top, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0.0)));
+}
+
+#copyright {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#copyright a {
+    color: #fff;
+    font-weight: bold;
+}

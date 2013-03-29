@@ -1,0 +1,7 @@
+url: http://laborwars.aegames.org
+name: The Labor Wars
+description:
+markdown: redcarpet
+permalink: pretty
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
